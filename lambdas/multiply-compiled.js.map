@@ -1,0 +1,1 @@
+{"version":3,"sources":["multiply.js"],"names":[],"mappings":";;;AAGA,YAAY,CAAC;;;;;;qBAEE,UAAC,CAAC,EAAE,CAAC;SAAK,CAAC,GAAG,CAAC;CAAA","file":"multiply-compiled.js","sourcesContent":["/**\n * Created by sakariruoho on 10/14/15.\n */\n\"use strict\";\n\nexport default (x, y) => x * y;\n"]}
