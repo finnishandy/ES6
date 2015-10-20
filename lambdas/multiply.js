@@ -3,4 +3,5 @@
  */
 "use strict";
 
-export default (x, y) => x * y;
+var square = (x, y) => x * y;
+console.log(square(2));

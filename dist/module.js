@@ -45,19 +45,19 @@ exports.MyClass = MyClass;
  */
 'use strict';
 
-var _import = require('./import');
+var _export = require('./export');
 
 // 25
-console.log(_import.square(5));
+console.log(_export.square(5));
 
 var cred = {
-  name: 'Ritesh Kumar',
-  enrollmentNo: 11115078
+  name: 'Sakari Ruoho',
+  enrollmentNo: 1234567
 };
 
-var x = new _import.MyClass(cred);
+var x = new _export.MyClass(cred);
 
 //Ritesh Kumar
 console.log(x.getName());
 
-},{"./import":1}]},{},[2]);
+},{"./export":1}]},{},[2]);
