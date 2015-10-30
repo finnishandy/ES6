@@ -5,7 +5,8 @@
 
 var _ = require('lodash');
 
-function reduce(fn,accumulator,thisArg) {
+/*
+function reduce(fn,[accumulator],[thisArg]) {
     var idx = -1,
         len = this.length;
     if (!accumulator && len > 0) { //#A
@@ -17,6 +18,22 @@ function reduce(fn,accumulator,thisArg) {
     }
     return accumulator;       //#C
 }
+
+function map(fn, [thisArg]) {
+    var idx    = 0,
+        len    = this.length,
+        result = new Array(len); //#A
+    while (idx < len) {
+        if(this[idx] !== null && this[idx] !== undefined]) {
+            result[index] =
+                fn.call(thisArg, this[idx]);  //#B
+        }
+        idx++; }
+    return result;
+}
+
+*/
+
 
 class Address {
     constructor(Country) {
@@ -42,7 +59,7 @@ var stats = _([p1, p2, p3, p4]).reduce(function (stat, person) { //lodash
     return stat; //#C
 }, {}); //#D
 
-console.log(stats + "\n");
+console.log(JSON.stringify(stats) + "\n");
 
 console.log(_.groupBy([p1, p2, p3, p4], (person) => person.address.country));
 
