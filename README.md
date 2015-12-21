@@ -5,3 +5,6 @@ http://www.sitepoint.com/setting-up-es6-project-using-babel-browserify/
 
 Compile => browserify index.js -t babelify --outfile bundle.js
 
+Also small Phantom integration sample code..
+
+Functional
