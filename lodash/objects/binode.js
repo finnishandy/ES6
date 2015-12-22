@@ -1,7 +1,9 @@
 /**
  * Created by Sakari.Ruoho on 22/12/2015.
  */
-var Pair = require('pair')
+"use strict";
+
+var Pair = require('./pair')
 
 class BiNode extends Pair {       
     constructor(val) {         
@@ -25,5 +27,7 @@ class BiNode extends Pair {       
         return this;    
     }
 }
+
+module.exports = BiNode;
 
 
